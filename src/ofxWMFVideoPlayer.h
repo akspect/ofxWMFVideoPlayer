@@ -72,6 +72,8 @@ class ofxWMFVideoPlayer {
 	 float				getDuration();
 	 float				getFrameRate();
 
+	 ofTexture* getTexture();
+
 	 void				setPosition(float pos);
 
 	 void				setVolume(float vol);

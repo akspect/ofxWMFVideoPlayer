@@ -274,6 +274,10 @@ float ofxWMFVideoPlayer::getFrameRate()
 	return _frameRate;
 }
 
+ ofTexture* ofxWMFVideoPlayer::getTexture() {
+	 return &_tex;
+ }
+ 
 float	ofxWMFVideoPlayer::getHeight() { return _player->getHeight(); }
 float	ofxWMFVideoPlayer::getWidth() { return _player->getWidth(); }
 
